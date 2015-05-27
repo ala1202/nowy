@@ -1,0 +1,95 @@
+<html>
+  <head>
+   <title> Tables </title>
+  </head>
+  <body>
+    <h1>Simple</h1>
+    <table>
+      <tr> <td>A</td> <td>B</td> </tr>
+      <tr> <td>C</td> <td>D</td> </tr>
+      <tr> <td>E</td> <td>F</td> </tr>
+    </table>
+
+    <h1>With border</h1>
+    <table border="1">
+      <tr>
+        <td>...     </td>
+        <td>column 1</td>
+        <td>column 2</td>
+      </tr>
+      <tr>
+        <td>row 1</td>
+        <td>A</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>row 2</td>
+        <td>C</td>
+        <td>D</td>
+      </tr>
+    </table>
+
+    <h1>Not so simple</h1>
+    <table border="1">
+      <tr>
+        <td rowspan="2">...     </td>
+        <td colspan="2">column 1</td>
+        <td colspan="2">column 2</td>
+      </tr>
+      <tr>
+        <td>subcolumn 1.1</td>
+        <td>subcolumn 1.2</td>
+        <td>subcolumn 2.1</td>
+        <td>subcolumn 2.2</td>
+      </tr>
+      <tr>
+        <td>row 1</td>
+        <td rowspan="2" colspan="2">6</td>
+        <td>7</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>row 2</td>
+        <td>10</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>row 3</td>
+        <td colspan="2">13</td>
+        <td rowspan="2">14</td>
+        <td rowspan="2">15</td>
+      </tr>
+      <tr>
+        <td>row 4</td>
+        <td>17</td>
+        <td>18</td>
+      </tr>
+    </table>
+
+
+    <h1>Text in columns</h1>
+    <table>
+      <tr>
+        <td width="33%">
+          <h3>headline 1</h3>
+          Lorem ipsum dolor sit amet, ...
+          <h3>headline 2</h3>
+          <img src="imgSample04.jpg" align="left">
+          Lorem ipsum dolor sit amet, ...
+        </td>
+        <td width="33%">
+          <img src="imgSample04.jpg" align="left">
+          Lorem ipsum dolor sit amet, ...
+          Lorem ipsum dolor sit amet, ...
+          <img src="imgSample04.jpg" align="right">
+        Nulla felis ...
+        </td>
+        <td width="33%">
+          Lorem ipsum dolor sit amet, ...
+          <h3>headline 3</h3>
+          Lorem ipsum dolor sit amet, ...
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
